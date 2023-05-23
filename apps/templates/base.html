@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="imagetoolbar" content="no">
+    <meta name="msthemecompatible" content="no">
+    <meta name="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="/static/favicon.ico">
+    <title>{% block full_title %}{% block title %}Bewise. Task 1.{% endblock %}{% endblock full_title %}</title>
+    {% block head %}{% endblock head %}
+  </head>
+
+  <body>
+    {% block header %}{% endblock header %}
+    
+    {% block content %}
+    <h1>Bewise. Task 1.</h1>
+    {% endblock content %}
+
+    {% block footer %}{% endblock footer %}
+
+    {% block javascripts %}{% endblock javascripts %}
+  </body>
+</html>
