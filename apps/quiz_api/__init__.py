@@ -1,4 +1,5 @@
 from flask import Blueprint
+from . import models
 
 blueprint = Blueprint(
     'quiz_blueprint',

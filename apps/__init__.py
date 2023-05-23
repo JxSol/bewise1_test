@@ -18,7 +18,7 @@ def configure_database(app: Flask) -> NoReturn:
             db.create_all()
         except Exception as e:
             print('DBMS ERROR: ' + str(e))
-            print('Fallback to SQLite ')
+            print('Fallback to SQLite.')
             # Fallback to SQLite
             app.config['SQLALCHEMY_DATABASE_URI'] = \
                 'sqlite:///' \
