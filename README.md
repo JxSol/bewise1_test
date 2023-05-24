@@ -23,7 +23,7 @@ pip install -r ./requirements/development.txt
 ```
 5) Переименовать файл .env.sample в .env:
 ```sh
-mv /.env.sample /.env
+mv ./.env.sample ./.env
 ```
 6) Запустить docker-compose:
 ```sh
