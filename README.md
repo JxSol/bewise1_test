@@ -17,27 +17,20 @@
 2) Скачать, установить и включить Docker для вашей системы.
 <br> https://www.docker.com
 3) Открыть папку с проектом в терминале.
-4) Установить зависимости:
-```sh
-pip install -r ./requirements/development.txt
-```
-5) Переименовать файл .env.sample в .env:
+4) Переименовать файл .env.sample в .env:
 ```sh
 mv ./.env.sample ./.env
 ```
-6) Запустить docker-compose:
+5) Запустить docker-compose:
 ```sh
 docker docker-compose up -d
 ```
-7) Сервер будет доступен по адресу
+6) Сервер будет доступен по адресу
 <br> http://localhost:5000/api/quiz
 
 
 ## Пример POST-запроса
-Запросы можно посылать, например, с помощью Postman, указывая в теле запроса содержимое вида
-```text
-{"questions_num": integer}
-```
+Запросы можно посылать, например, с помощью Postman, указывая в теле запроса содержимое вида ```{"questions_num": integer}```.
 #### Запрос:
 ```text
 POST /api/quiz HTTP/1.1
