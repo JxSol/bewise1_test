@@ -23,7 +23,7 @@ mv ./.env.sample ./.env
 ```
 5) Запустить docker-compose:
 ```sh
-docker docker-compose up -d
+docker compose up -d
 ```
 6) Сервер будет доступен по адресу
 <br> http://localhost:5000/api/quiz
